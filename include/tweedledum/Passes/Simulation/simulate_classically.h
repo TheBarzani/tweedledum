@@ -5,8 +5,11 @@
 #pragma once
 
 #include "../../IR/Circuit.h"
+#include <cstdint>
 #include "../../Operators/Reversible.h"
+#include <cstdint>
 #include "../../Utils/DynamicBitset.h"
+#include <cstdint>
 
 namespace tweedledum {
 

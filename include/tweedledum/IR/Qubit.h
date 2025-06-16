@@ -5,9 +5,13 @@
 #pragma once
 
 #include <cassert>
+#include <cstdint>
 #include <limits>
+#include <cstdint>
 #include <string>
+#include <cstdint>
 #include <vector>
+#include <cstdint>
 
 namespace tweedledum {
 

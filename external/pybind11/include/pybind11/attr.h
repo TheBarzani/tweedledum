@@ -1,3 +1,6 @@
+#include <cstdint>
+#include <cstdint>
+#include <cstdint>
 /*
     pybind11/attr.h: Infrastructure for processing custom
     type and function attributes

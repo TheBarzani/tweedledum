@@ -5,7 +5,9 @@
 #pragma once
 
 #include "../IR/Circuit.h"
+#include <cstdint>
 #include "../Operators/Standard/X.h"
+#include <cstdint>
 
 // The adders implemented here are based on the following papers:
 //

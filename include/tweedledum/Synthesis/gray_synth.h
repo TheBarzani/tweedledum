@@ -5,11 +5,16 @@
 #pragma once
 
 #include "../IR/Circuit.h"
+#include <cstdint>
 #include "../Utils/LinPhasePoly.h"
+#include <cstdint>
 #include "../Utils/Matrix.h"
+#include <cstdint>
 
 #include <nlohmann/json.hpp>
+#include <cstdint>
 #include <vector>
+#include <cstdint>
 
 // This implementation is based on:
 //

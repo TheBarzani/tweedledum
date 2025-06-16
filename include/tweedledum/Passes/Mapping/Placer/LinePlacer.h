@@ -5,11 +5,16 @@
 #pragma once
 
 #include "../../../IR/Circuit.h"
+#include <cstdint>
 #include "../../../IR/Qubit.h"
+#include <cstdint>
 #include "../../../Target/Device.h"
+#include <cstdint>
 #include "../../../Target/Placement.h"
+#include <cstdint>
 
 #include <vector>
+#include <cstdint>
 
 namespace tweedledum {
 

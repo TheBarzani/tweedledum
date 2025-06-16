@@ -5,11 +5,17 @@
 #pragma once
 
 #include <algorithm>
+#include <cstdint>
 #include <cassert>
+#include <cstdint>
 #include <cstdlib>
+#include <cstdint>
 #include <iostream>
+#include <cstdint>
 #include <utility>
+#include <cstdint>
 #include <vector>
+#include <cstdint>
 
 namespace tweedledum {
 

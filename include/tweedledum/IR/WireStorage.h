@@ -5,12 +5,18 @@
 #pragma once
 
 #include "Cbit.h"
+#include <cstdint>
 #include "Qubit.h"
+#include <cstdint>
 
 #include <cassert>
+#include <cstdint>
 #include <limits>
+#include <cstdint>
 #include <string>
+#include <cstdint>
 #include <vector>
+#include <cstdint>
 
 namespace tweedledum {
 

@@ -5,9 +5,12 @@
 #pragma once
 
 #include "../IR/Circuit.h"
+#include <cstdint>
 #include "../Utils/LinPhasePoly.h"
+#include <cstdint>
 
 #include <vector>
+#include <cstdint>
 
 // A CNOT-dihedral circuit is just a fancy way of way the circuit is built using
 // only {X, CNOT, Rz} gates.  We know that every circuit written over this gate

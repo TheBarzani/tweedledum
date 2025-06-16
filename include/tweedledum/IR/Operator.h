@@ -5,12 +5,18 @@
 #pragma once
 
 #include "../Operators/Meta.h"
+#include <cstdint>
 #include "../Utils/Matrix.h"
+#include <cstdint>
 #include "OperatorTraits.h"
+#include <cstdint>
 
 #include <memory>
+#include <cstdint>
 #include <optional>
+#include <cstdint>
 #include <string_view>
+#include <cstdint>
 
 namespace tweedledum {
 

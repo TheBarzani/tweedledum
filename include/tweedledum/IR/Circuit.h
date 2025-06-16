@@ -5,15 +5,24 @@
 #pragma once
 
 #include "Cbit.h"
+#include <cstdint>
 #include "Instruction.h"
+#include <cstdint>
 #include "Qubit.h"
+#include <cstdint>
 #include "WireStorage.h"
+#include <cstdint>
 
 #include <cassert>
+#include <cstdint>
 #include <fmt/format.h>
+#include <cstdint>
 #include <memory>
+#include <cstdint>
 #include <utility>
+#include <cstdint>
 #include <vector>
+#include <cstdint>
 
 namespace tweedledum {
 

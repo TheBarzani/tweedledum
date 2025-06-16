@@ -5,12 +5,18 @@
 #pragma once
 
 #include "../../IR/Circuit.h"
+#include <cstdint>
 #include "../../IR/Instruction.h"
+#include <cstdint>
 #include "../../Target/Device.h"
+#include <cstdint>
 #include "../Utility/shallow_duplicate.h"
+#include <cstdint>
 #include "placer/SatPlacer.h"
+#include <cstdint>
 
 #include <string_view>
+#include <cstdint>
 
 namespace tweedledum {
 

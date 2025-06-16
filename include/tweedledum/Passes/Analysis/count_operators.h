@@ -5,11 +5,16 @@
 #pragma once
 
 #include "../../IR/Circuit.h"
+#include <cstdint>
 #include "../../IR/Instruction.h"
+#include <cstdint>
 
 #include <algorithm>
+#include <cstdint>
 #include <string>
+#include <cstdint>
 #include <unordered_map>
+#include <cstdint>
 
 namespace tweedledum {
 

@@ -5,8 +5,10 @@
 #pragma once
 
 #include "../../IR/Circuit.h"
+#include <cstdint>
 
 #include <string>
+#include <cstdint>
 
 namespace tweedledum {
 

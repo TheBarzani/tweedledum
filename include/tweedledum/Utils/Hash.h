@@ -5,8 +5,11 @@
 #pragma once
 
 #include <functional>
+#include <cstdint>
 #include <set>
+#include <cstdint>
 #include <vector>
+#include <cstdint>
 
 namespace tweedledum {
 

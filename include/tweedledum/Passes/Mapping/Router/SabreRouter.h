@@ -5,12 +5,19 @@
 #pragma once
 
 #include "../../../IR/Circuit.h"
+#include <cstdint>
 #include "../../../IR/Qubit.h"
+#include <cstdint>
 #include "../../../Operators/Reversible.h"
+#include <cstdint>
 #include "../../../Target/Device.h"
+#include <cstdint>
 #include "../../../Target/Mapping.h"
+#include <cstdint>
 #include "../../../Target/Placement.h"
+#include <cstdint>
 #include "../../Utility/reverse.h"
+#include <cstdint>
 
 namespace tweedledum {
 

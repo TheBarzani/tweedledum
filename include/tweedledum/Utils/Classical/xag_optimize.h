@@ -5,13 +5,21 @@
 #pragma once
 
 #include <mockturtle/algorithms/cleanup.hpp>
+#include <cstdint>
 #include <mockturtle/algorithms/cut_rewriting.hpp>
+#include <cstdint>
 #include <mockturtle/algorithms/node_resynthesis/bidecomposition.hpp>
+#include <cstdint>
 #include <mockturtle/algorithms/node_resynthesis/xag_minmc2.hpp>
+#include <cstdint>
 #include <mockturtle/algorithms/refactoring.hpp>
+#include <cstdint>
 #include <mockturtle/algorithms/xag_optimization.hpp>
+#include <cstdint>
 #include <mockturtle/networks/xag.hpp>
+#include <cstdint>
 #include <mockturtle/properties/mccost.hpp>
+#include <cstdint>
 
 // TODO: Find a better place to put this?!
 // It's a bit annoying that mockturtle don't default flows

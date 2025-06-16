@@ -5,7 +5,9 @@
 #pragma once
 
 #include <kitty/kitty.hpp>
+#include <cstdint>
 #include <string_view>
+#include <cstdint>
 
 namespace tweedledum::Op {
 

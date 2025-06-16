@@ -5,13 +5,20 @@
 #pragma once
 
 #include "../../IR/Circuit.h"
+#include <cstdint>
 #include "../../IR/Instruction.h"
+#include <cstdint>
 #include "../../Operators/Standard/Measure.h"
+#include <cstdint>
 #include "../../Utils/Cut.h"
+#include <cstdint>
 
 #include <algorithm>
+#include <cstdint>
 #include <limits>
+#include <cstdint>
 #include <vector>
+#include <cstdint>
 
 namespace tweedledum {
 

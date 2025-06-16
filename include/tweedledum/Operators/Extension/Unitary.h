@@ -5,12 +5,18 @@
 #pragma once
 
 #include "../../IR/Instruction.h"
+#include <cstdint>
 #include "../../Utils/Matrix.h"
+#include <cstdint>
 
 #include <cassert>
+#include <cstdint>
 #include <fmt/format.h>
+#include <cstdint>
 #include <optional>
+#include <cstdint>
 #include <string_view>
+#include <cstdint>
 
 namespace tweedledum::Op {
 

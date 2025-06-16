@@ -5,7 +5,9 @@
 #pragma once
 
 #include "../IR/Circuit.h"
+#include <cstdint>
 #include "../Operators/Standard/X.h"
+#include <cstdint>
 
 // Applies a less-than comparison between two integers encoded into qubits.  It
 // flips a target qubit based on the result of the comparison.

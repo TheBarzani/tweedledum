@@ -5,10 +5,14 @@
 #pragma once
 
 #include "../../IR/Circuit.h"
+#include <cstdint>
 #include "compute_asap_layers.h"
+#include <cstdint>
 
 #include <algorithm>
+#include <cstdint>
 #include <vector>
+#include <cstdint>
 
 namespace tweedledum {
 

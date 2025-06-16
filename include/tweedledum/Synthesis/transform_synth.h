@@ -5,8 +5,10 @@
 #pragma once
 
 #include "../IR/Circuit.h"
+#include <cstdint>
 
 #include <vector>
+#include <cstdint>
 
 // This implementation is based on:
 //

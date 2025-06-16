@@ -5,8 +5,11 @@
 #pragma once
 
 #include <Eigen/Dense>
+#include <cstdint>
 #include <complex>
+#include <cstdint>
 #include <iostream>
+#include <cstdint>
 
 namespace tweedledum {
 

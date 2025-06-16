@@ -5,7 +5,9 @@
 #pragma once
 
 #include <mockturtle/networks/xag.hpp>
+#include <cstdint>
 #include <string_view>
+#include <cstdint>
 
 namespace tweedledum::Op {
 

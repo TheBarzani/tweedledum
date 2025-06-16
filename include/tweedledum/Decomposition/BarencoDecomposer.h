@@ -5,9 +5,12 @@
 #pragma once
 
 #include "../IR/Circuit.h"
+#include <cstdint>
 #include "../IR/Instruction.h"
+#include <cstdint>
 
 #include <nlohmann/json.hpp>
+#include <cstdint>
 
 namespace tweedledum {
 

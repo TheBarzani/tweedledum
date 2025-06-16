@@ -5,8 +5,10 @@
 #pragma once
 
 #include "../../Utils/Matrix.h"
+#include <cstdint>
 
 #include <string_view>
+#include <cstdint>
 
 namespace tweedledum::Op {
 

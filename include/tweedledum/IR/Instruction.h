@@ -5,14 +5,22 @@
 #pragma once
 
 #include "../Utils/SmallVector.h"
+#include <cstdint>
 #include "Operator.h"
+#include <cstdint>
 #include "WireStorage.h"
+#include <cstdint>
 
 #include <cassert>
+#include <cstdint>
 #include <limits>
+#include <cstdint>
 #include <memory>
+#include <cstdint>
 #include <utility>
+#include <cstdint>
 #include <vector>
+#include <cstdint>
 
 namespace tweedledum {
 

@@ -5,7 +5,9 @@
 #pragma once
 
 #include <iterator>
+#include <cstdint>
 #include <vector>
+#include <cstdint>
 
 namespace tweedledum {
 
