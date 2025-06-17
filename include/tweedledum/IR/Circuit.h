@@ -22,7 +22,11 @@
 #include <utility>
 #include <cstdint>
 #include <vector>
+<<<<<<< Updated upstream
 #include <cstdint>
+=======
+#include <cstdint> 
+>>>>>>> Stashed changes
 
 namespace tweedledum {
 

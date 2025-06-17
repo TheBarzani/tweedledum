@@ -78,6 +78,7 @@ _TO_QISKIT_GATE = {
     "ising.rxx": RXXGate,
     "ising.ryy": RYYGate,
     "ising.rzz": RZZGate,
+    "ext.parity": XGate,
 }
 
 
@@ -154,6 +155,12 @@ def _convert_tweedledum_op(op):
     else:
         gate = base_gate()
 
+    # Handle parity gates specially
+    if op.kind() == "ext.parity":
+        # For parity gates, we'll let the circuit append function handle the controls
+        # since a parity gate is effectively an X gate with multiple controls
+        return gate
+
     # TODO: need to deal with cbits too!
     if op.num_controls() > 0:
         qubits = op.qubits()
@@ -176,7 +183,23 @@ def _to_qc(circuit):
         gate = _convert_tweedledum_op(instruction)
         qubits = [qubit.uid() for qubit in instruction.qubits()]
         cbits = [cbit.uid() for cbit in instruction.cbits()]
-        qiskit_qc.append(gate, qubits, cbits)
+        
+        # Special handling for parity gates
+        if instruction.kind() == "ext.parity":
+            # In a parity gate, the last qubit is the target, and others are controls
+            target = qubits[-1]
+            controls = qubits[:-1]
+            
+            if not controls:
+                # If no controls, just apply X
+                qiskit_qc.x(target)
+            else:
+                # Apply CNOT from each control to target
+                for control in controls:
+                    qiskit_qc.cx(control, target)
+        else:
+            # Normal gate handling
+            qiskit_qc.append(gate, qubits, cbits)
     return qiskit_qc
 
 

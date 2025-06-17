@@ -14,6 +14,7 @@
 #pragma once
 
 #include "cast.h"
+#include <cstdint> // for std::uint16_t
 
 PYBIND11_NAMESPACE_BEGIN(PYBIND11_NAMESPACE)
 

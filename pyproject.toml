@@ -1,3 +1,11 @@
+<<<<<<< Updated upstream
+=======
+[project]
+name = "tweedledum"
+requires-python = ">=3.10"
+version = "1.1.1"
+dynamic = ["description", "readme", "license", "authors", "classifiers"]
+>>>>>>> Stashed changes
 
 [build-system]
 requires = [
