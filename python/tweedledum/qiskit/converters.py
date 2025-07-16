@@ -135,7 +135,6 @@ def _from_dag(qiskit_dag):
 
 def _convert_tweedledum_op(op):
     base_gate = _TO_QISKIT_GATE.get(op.kind())
-    print(base_gate)
     if base_gate == None:
         if op.kind() == "py_op":
             return op.py_op()
