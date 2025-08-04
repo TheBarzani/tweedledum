@@ -7,6 +7,7 @@
 #include <mockturtle/io/dimacs_reader.hpp>
 #include <mockturtle/io/verilog_reader.hpp>
 #include <mockturtle/io/write_verilog.hpp>
+#include <mockturtle/io/write_dot.hpp>
 #include <mockturtle/networks/xag.hpp>
 #include <pybind11/operators.h>
 #include <pybind11/pybind11.h>
@@ -70,6 +71,14 @@ void init_mockturtle(pybind11::module& module)
     module.def("write_verilog", [](xag_network const& xag, std::string const& filename) {
         write_verilog(xag, filename);
     }, "Write a LogicNetwork to a Verilog file.");
+
+    module.def("write_dot", [](xag_network const& xag, std::string const& filename) {
+        write_dot(xag, filename);
+    }, "Write a LogicNetwork to a Graphviz file.");
+
+    module.def("write_gate_dot", [](xag_network const& xag, std::string const& filename) {
+        write_gate_dot(xag, filename);
+    }, "Write a LogicNetwork to a Graphviz file with Gates.");
 
     // Optimization
     module.def("exorcism", py::overload_cast<std::vector<kitty::cube> const&, uint32_t>(&exorcism));

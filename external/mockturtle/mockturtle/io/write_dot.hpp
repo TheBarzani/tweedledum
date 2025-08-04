@@ -398,4 +398,24 @@ void write_dot( Ntk const& ntk, std::string const& filename, Drawer const& drawe
   os.close();
 }
 
+/*! \brief Writes network in DOT format into a file (GATE Version)
+ *
+ * **Required network functions:**
+ * - is_constant
+ * - is_pi
+ * - foreach_node
+ * - foreach_fanin
+ * - foreach_po
+ *
+ * \param ntk Network
+ * \param filename Filename
+ */
+template<class Ntk, class Drawer = gate_dot_drawer<Ntk>>
+void write_gate_dot( Ntk const& ntk, std::string const& filename, Drawer const& drawer = {} )
+{
+  std::ofstream os( filename.c_str(), std::ofstream::out );
+  write_dot( ntk, os, drawer );
+  os.close();
+}
+
 } /* namespace mockturtle */
