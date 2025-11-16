@@ -4,6 +4,8 @@
 # -------------------------------------------------------------------------------
 import _ast
 import ast
+import sys
+sys.setrecursionlimit(10000)
 
 from .bitvec import BitVec
 from tweedledum.classical import LogicNetwork
